@@ -1,5 +1,5 @@
 public class GameOfDarts {
-    private Dartboard dartboard;
+    private final Dartboard dartboard;
     private int player1;
     private int player2;
 

@@ -1,7 +1,7 @@
 import java.util.TreeMap;
 
 public class Dartboard {
-    private TreeMap<Double, Integer> board;
+    private final TreeMap<Double, Integer> board;
 
     //Constructor to initialize the dartboard
     public Dartboard() {
@@ -30,10 +30,10 @@ public class Dartboard {
     }
 
     //Print the dartboard
-    public void printDartboard(){
-        System.out.println("Dartboard");
-        for(double radius : board.keySet()) {
-            System.out.println(radius + " " + board.get(radius));
-        }
-    }
+//    public void printDartboard(){
+//        System.out.println("Dartboard");
+//        for(double radius : board.keySet()) {
+//            System.out.println(radius + " " + board.get(radius));
+//        }
+//    }
 }
